@@ -10,6 +10,10 @@ and this library adheres to Rust's notion of
 - `zcash_primitives::transaction`:
   - `Transaction::temporary_zcashd_read_v5_sapling`
   - `Transaction::temporary_zcashd_write_v5_sapling`
+- Implementations of `memuse::DynamicUsage` for the following types:
+  - `zcash_primitives::transaction::components::sapling`:
+    - `Bundle<Authorized>`
+    - `SpendDescription<Authorized>`
 
 ## [0.11.0] - 2023-04-15
 ### Added
