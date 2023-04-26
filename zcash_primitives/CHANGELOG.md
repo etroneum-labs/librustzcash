@@ -6,6 +6,10 @@ and this library adheres to Rust's notion of
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- `zcash_primitives::transaction`:
+  - `Transaction::temporary_zcashd_read_v5_sapling`
+  - `Transaction::temporary_zcashd_write_v5_sapling`
 
 ## [0.11.0] - 2023-04-15
 ### Added
